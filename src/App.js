@@ -19,9 +19,9 @@ import './sass/style.scss';
 function App() {
   return <Router>
   <div>
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" style={{ height: '70px' }}>
       <Container>
-        <Navbar.Brand href="#home">The YAY Company</Navbar.Brand>
+        <Navbar.Brand href="#home" >The YAY Company</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -29,15 +29,13 @@ function App() {
             <NavLink to="/news" className="nav-link">News</NavLink>
             <NavLink to="/contact" className="nav-link">Contact</NavLink>
           </Nav>
-          <Form inline>
+          <Form className="d-flex">
             <Formcontrol type="text" placeholder="Search" className="mr-sm-2" />
             <Button variant="outline-success">Go</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
-    <hr />
 
     {/*
       A <Switch> looks through all its children <Route>

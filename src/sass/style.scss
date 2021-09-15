@@ -4,6 +4,7 @@ $color-text-dark: #0A0A0A;
 $color-text: #767676;
 $color-white: #fff;
 $color-background: radial-gradient(#fff, #e5e5e5);
+$color-nav: #EFEFEF;
 
 // typography
 $font-body: "Lato", sans-serif;
@@ -12,9 +13,11 @@ $font-header: "Playfair Display", serif;
 // bootstrap
 $theme-colors: (
   "primary":    $color-primary,
-  "light":      $color-white,
+  "light":      $color-nav,
   "dark":       $color-text-dark,
 );
+
+$input-border-width: 0;
 
 @import "~bootstrap/scss/bootstrap";
 
