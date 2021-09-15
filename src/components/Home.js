@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
      <CarouselSlider />
-     <Container>
+     <Container className="mt-5 mb-5">
       <Heading content="We do YAY things"/>
       <Paragraph content="Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi,
         a rutrum justo eros pretium libero. Nullam vel enim id mauris eleifend finibus et
