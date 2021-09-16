@@ -5,10 +5,11 @@ import ContactInfo from './ContactInfo';
 import Heading from '../Heading';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import FooterElement from '../FooterElement';
 
 function Contact() {
   return (
-    <div>
+    <>
       <Container className="mt-5">
         <Row>
           <Col xs={12} md={3} lg={2} className="order-md-2 mt-md-5 address-container">
@@ -22,7 +23,8 @@ function Contact() {
           </Col>
         </Row>
       </Container>
-    </div>
+      <FooterElement />
+    </>
   )
 }
 

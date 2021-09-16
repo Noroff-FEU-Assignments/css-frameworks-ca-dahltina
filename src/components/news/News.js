@@ -3,6 +3,7 @@ import Cards from './Cards';
 import Heading from '../Heading';
 import Page from './Page';
 import Container from 'react-bootstrap/Container';
+import FooterElement from '../FooterElement';
 
 function News() {
   return (
@@ -17,6 +18,7 @@ function News() {
       <Container>
         <Page />
       </Container>
+      <FooterElement />
     </>
   )
 }

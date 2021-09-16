@@ -5,6 +5,7 @@ import AccordionSection from './AccordionSection';
 import Heading from './Heading';
 import Paragraph from './Paragraph';
 import Container from 'react-bootstrap/Container';
+import FooterElement from './FooterElement';
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
      </Container>
      <TabSection />
      <AccordionSection />
+     <FooterElement/>
     </>
   )
 };
