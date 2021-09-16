@@ -1,8 +1,28 @@
+* {
+  box-sizing: border-box;
+}
 
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+// footer
 footer {
   background-color: $color-white;
   padding: 10px 0;
   margin-top: 200px;
+  display: flex;
+  flex-shrink: 0;
 
   a {
     text-decoration: none;

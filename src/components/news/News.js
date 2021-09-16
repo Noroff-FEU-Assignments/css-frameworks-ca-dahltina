@@ -8,17 +8,19 @@ import FooterElement from '../FooterElement';
 function News() {
   return (
     <>
-      <Container className="mt-4">
-        <Heading content="News"/>
-        <Page/>
-      </Container>
-      <Container >
-        <Cards />
-      </Container>
-      <Container>
-        <Page />
-      </Container>
-      <FooterElement />
+      <div class="wrapper">
+        <Container className="mt-4">
+          <Heading content="News"/>
+          <Page/>
+        </Container>
+        <Container >
+          <Cards />
+        </Container>
+        <Container>
+          <Page />
+        </Container>
+        <FooterElement />
+      </div>
     </>
   )
 }
