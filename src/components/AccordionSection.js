@@ -10,8 +10,8 @@ function AccordionSection() {
   return (
     <div className="d-md-none mb-5">
       <Container>
-        <Accordion defaultActiveKey="0">
-          <Accordion.Item eventKey="0">
+        <Accordion defaultActiveKey="0" className="shadow-lg">
+          <Accordion.Item eventKey="0" className="mb-1">
             <Accordion.Header>First</Accordion.Header>
             <Accordion.Body>
               <div class="d-flex flex-column justify-content-center">
@@ -29,7 +29,7 @@ function AccordionSection() {
               </div>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="1">
+          <Accordion.Item eventKey="1" className="mb-1">
             <Accordion.Header>Second</Accordion.Header>
             <Accordion.Body>
             <div class="d-flex flex-column justify-content-center">

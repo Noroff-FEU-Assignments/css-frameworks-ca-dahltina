@@ -20,6 +20,7 @@ $theme-colors: (
 $input-border-width: 0;
 $accordion-button-bg: #fff;
 $accordion-button-color: $color-primary;
+$accordion-border-radius: 15px;
 
 @import "~bootstrap/scss/bootstrap";
 
