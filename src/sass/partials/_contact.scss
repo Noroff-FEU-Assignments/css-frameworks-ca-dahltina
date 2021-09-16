@@ -1,0 +1,23 @@
+.form-container {
+  background-color: $color-nav;
+  padding: 30px;
+  max-width: 555px;
+}
+
+.input-group-text {
+  background-color: #C7C7C7;
+  color: $color-white;
+}
+
+form button {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .address-container {
+    padding-top: 50px;
+    margin-left: 50px;
+  }
+}
+
+

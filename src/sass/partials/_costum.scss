@@ -1,0 +1,26 @@
+// global styles
+body {
+  background: $color-background;
+}
+
+// icons
+.fab {
+  font-size: 24px;
+  padding: 0 10px;
+}
+
+.fas {
+  color: $color-text;
+  font-size: 28px;
+}
+
+.share-icons {
+  color: $color-text-dark;
+}
+
+// buttons
+.btn-primary {
+  background-color: $color-text;
+  border: none;
+  color: #fff;
+}

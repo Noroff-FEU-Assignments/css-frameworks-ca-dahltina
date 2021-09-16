@@ -30,10 +30,14 @@ $pagination-padding-x: 1rem;
 $card-border-radius: 12px;
 $card-border-width: 0;
 $card-spacer-x: 30px;
+$form-check-input-bg: $color-primary;
+$form-check-input-border: none;
+$form-check-input-width: 1.8em;
 
 @import "~bootstrap/scss/bootstrap";
 
 @import "partials/home";
+@import "partials/costum";
 @import "partials/typography";
 @import "partials/navbar";
 @import "partials/layout";
@@ -41,5 +45,6 @@ $card-spacer-x: 30px;
 @import "partials/carousel";
 @import "partials/accordion";
 @import "partials/cards";
+@import "partials/contact";
 
 

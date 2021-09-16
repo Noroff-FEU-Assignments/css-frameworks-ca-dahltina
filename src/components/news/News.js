@@ -11,8 +11,8 @@ function News() {
         <Heading content="News"/>
         <Page/>
       </Container>
-      <Container>
-        <Cards  className="d-flex justify-content-center"/>
+      <Container >
+        <Cards />
       </Container>
       <Container>
         <Page />
