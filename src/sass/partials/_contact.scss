@@ -9,8 +9,15 @@
   color: $color-white;
 }
 
-form button {
+.form-container button {
   width: 100%;
+}
+
+.address-container {
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 }
 
 @media (min-width: 768px) {
