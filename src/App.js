@@ -19,7 +19,7 @@ import './sass/style.scss';
 function App() {
   return <Router>
   <div>
-    <Navbar bg="light" expand="lg" style={{ height: '70px' }}>
+    <Navbar bg="light" expand="lg" style={{ minHeight: '70px' }}>
       <Container>
         <Navbar.Brand href="#home" >The YAY Company</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
