@@ -17,10 +17,10 @@ function Cards() {
     <div>
       <Row>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem' }} className="mb-4 shadow-lg">
             <Card.Img variant="top" src={Img1} />
             <Card.Body>
-              <Card.Title>Nunc porttitor vel</Card.Title>
+              <Card.Title className="text-dark mt-2">Nunc porttitor vel</Card.Title>
               <Card.Text>
                 Nunc malesuada eget est fringilla dapibus.
               </Card.Text>
@@ -29,10 +29,10 @@ function Cards() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem' }} className="mb-4 shadow-lg">
             <Card.Img variant="top" src={Img2} />
             <Card.Body>
-              <Card.Title>Nunc porttitor vel</Card.Title>
+              <Card.Title className="text-dark mt-2">Nunc porttitor vel</Card.Title>
               <Card.Text>
                 Nunc malesuada eget est fringilla dapibus.
               </Card.Text>
@@ -41,10 +41,10 @@ function Cards() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem' }} className="mb-4 shadow-lg">
             <Card.Img variant="top" src={Img3} />
             <Card.Body>
-              <Card.Title>Nunc porttitor vel</Card.Title>
+              <Card.Title className="text-dark mt-2">Nunc porttitor vel</Card.Title>
               <Card.Text>
                 Nunc malesuada eget est fringilla dapibus.
               </Card.Text>
@@ -53,10 +53,10 @@ function Cards() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem' }} className="mb-4 shadow-lg">
             <Card.Img variant="top" src={Img4} />
             <Card.Body>
-              <Card.Title>Nunc porttitor vel</Card.Title>
+              <Card.Title className="text-dark mt-2">Nunc porttitor vel</Card.Title>
               <Card.Text>
                 Nunc malesuada eget est fringilla dapibus.
               </Card.Text>
@@ -67,10 +67,10 @@ function Cards() {
       </Row>
       <Row>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem' }} className="mb-4 shadow-lg">
             <Card.Img variant="top" src={Img5} />
             <Card.Body>
-              <Card.Title>Nunc porttitor vel</Card.Title>
+              <Card.Title className="text-dark mt-2">Nunc porttitor vel</Card.Title>
               <Card.Text>
                 Nunc malesuada eget est fringilla dapibus.
               </Card.Text>
@@ -79,10 +79,10 @@ function Cards() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem' }} className="mb-4 shadow-lg">
             <Card.Img variant="top" src={Img6} />
             <Card.Body>
-              <Card.Title>Nunc porttitor vel</Card.Title>
+              <Card.Title className="text-dark mt-2">Nunc porttitor vel</Card.Title>
               <Card.Text>
                 Nunc malesuada eget est fringilla dapibus.
               </Card.Text>
@@ -91,10 +91,10 @@ function Cards() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem' }} className="mb-4 shadow-lg">
             <Card.Img variant="top" src={Img7} />
             <Card.Body>
-              <Card.Title>Nunc porttitor vel</Card.Title>
+              <Card.Title className="text-dark mt-2">Nunc porttitor vel</Card.Title>
               <Card.Text>
                 Nunc malesuada eget est fringilla dapibus.
               </Card.Text>
@@ -103,10 +103,10 @@ function Cards() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem' }} className="mb-4 shadow-lg">
             <Card.Img variant="top" src={Img8} />
             <Card.Body>
-              <Card.Title>Nunc porttitor vel</Card.Title>
+              <Card.Title className="text-dark mt-2">Nunc porttitor vel</Card.Title>
               <Card.Text>
                 Nunc malesuada eget est fringilla dapibus.
               </Card.Text>

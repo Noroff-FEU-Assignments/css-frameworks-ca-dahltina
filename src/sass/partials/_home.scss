@@ -12,3 +12,10 @@ body {
 .share-icons {
   color: $color-text-dark;
 }
+
+// buttons
+.btn-primary {
+  background-color: $color-text;
+  border: none;
+  color: #fff;
+}

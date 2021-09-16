@@ -7,12 +7,12 @@ import Container from 'react-bootstrap/Container';
 function News() {
   return (
     <>
-      <Container>
+      <Container className="mt-4">
         <Heading content="News"/>
-        <Page />
+        <Page/>
       </Container>
       <Container>
-        <Cards />
+        <Cards  className="d-flex justify-content-center"/>
       </Container>
       <Container>
         <Page />

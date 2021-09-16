@@ -4,7 +4,7 @@ import { Pagination } from 'react-bootstrap';
 function Page() {
   return (
     <div>
-      <Pagination>
+      <Pagination className="mb-4 mt-4">
         <Pagination.Item active>{1}</Pagination.Item>
         <Pagination.Item>{2}</Pagination.Item>
         <Pagination.Item>{3}</Pagination.Item>
