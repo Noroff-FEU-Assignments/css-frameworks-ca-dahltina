@@ -14,7 +14,7 @@ import Img8 from '../../images/news-images/news-8.jpg';
 
 function Cards() {
   return (
-    <div>
+    <div className="cards">
       <Row>
         <Col>
           <Card style={{ width: '18rem' }} className="mb-4 shadow-lg">
