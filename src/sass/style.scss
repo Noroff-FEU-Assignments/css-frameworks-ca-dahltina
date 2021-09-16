@@ -18,6 +18,8 @@ $theme-colors: (
 );
 
 $input-border-width: 0;
+$accordion-button-bg: #fff;
+$accordion-button-color: $color-primary;
 
 @import "~bootstrap/scss/bootstrap";
 
@@ -27,6 +29,7 @@ $input-border-width: 0;
 @import "partials/layout";
 @import "partials/tabs";
 @import "partials/carousel";
+@import "partials/accordion";
 
 .btn-primary {
   background-color: $color-text;
