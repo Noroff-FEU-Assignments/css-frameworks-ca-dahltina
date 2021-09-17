@@ -1,0 +1,28 @@
+.accordion-body {
+  background: radial-gradient(#fff, #F5F5F5);
+}
+
+.accordion-item {
+  border: 0;
+}
+
+.accordion-button {
+
+  &.collapsed::after {
+    display: none;
+  }
+
+  &:not(.collapsed) {
+    color: $color-primary;
+    background-color: $color-white;
+    border-bottom: 1px solid $color-primary;
+
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.mb-1.accordion-item {
+  margin-bottom: 1px !important;
+}
