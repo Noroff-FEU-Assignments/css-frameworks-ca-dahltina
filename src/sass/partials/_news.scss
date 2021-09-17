@@ -1,8 +1,12 @@
 .cards {
   .row {
-    --bs-gutter-x: 0;
-    margin-bottom: 10px;
+    --bs-gutter-x: 30px;
+    margin-bottom: 5px;
   }
+}
+
+.card {
+  width: 100%;
 }
 
 .card-body {

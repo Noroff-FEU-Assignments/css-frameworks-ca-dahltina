@@ -11,7 +11,7 @@ function News() {
       <div class="wrapper">
         <Container className="mt-4">
           <Heading content="News"/>
-          <Page/>
+          <Page />
         </Container>
         <Container >
           <Cards />

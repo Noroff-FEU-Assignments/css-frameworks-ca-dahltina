@@ -16,8 +16,8 @@ function Cards() {
   return (
     <div className="cards">
       <Row>
-        <Col>
-          <Card style={{ width: '18rem' }} className="mb-4 shadow-lg">
+        <Col lg={3} md={6} sm={6} xs={12}>
+          <Card className="mb-4 shadow-lg">
             <Card.Img variant="top" src={Img1} />
             <Card.Body>
               <Card.Title className="text-dark mt-2">Nunc porttitor vel</Card.Title>
@@ -28,8 +28,8 @@ function Cards() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-          <Card style={{ width: '18rem' }} className="mb-4 shadow-lg">
+        <Col lg={3} md={6} sm={6} xs={12}>
+          <Card className="mb-4 shadow-lg">
             <Card.Img variant="top" src={Img2} />
             <Card.Body>
               <Card.Title className="text-dark mt-2">Nunc porttitor vel</Card.Title>
@@ -40,8 +40,8 @@ function Cards() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-          <Card style={{ width: '18rem' }} className="mb-4 shadow-lg">
+        <Col lg={3} md={6} sm={6} xs={12}>
+          <Card className="mb-4 shadow-lg">
             <Card.Img variant="top" src={Img3} />
             <Card.Body>
               <Card.Title className="text-dark mt-2">Nunc porttitor vel</Card.Title>
@@ -52,8 +52,8 @@ function Cards() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-          <Card style={{ width: '18rem' }} className="mb-4 shadow-lg">
+        <Col lg={3} md={6} sm={6} xs={12}>
+          <Card className="mb-4 shadow-lg">
             <Card.Img variant="top" src={Img4} />
             <Card.Body>
               <Card.Title className="text-dark mt-2">Nunc porttitor vel</Card.Title>
@@ -66,8 +66,8 @@ function Cards() {
         </Col>
       </Row>
       <Row>
-        <Col>
-          <Card style={{ width: '18rem' }} className="mb-4 shadow-lg">
+        <Col lg={3} md={6} sm={6} xs={12}>
+          <Card className="mb-4 shadow-lg">
             <Card.Img variant="top" src={Img5} />
             <Card.Body>
               <Card.Title className="text-dark mt-2">Nunc porttitor vel</Card.Title>
@@ -78,8 +78,8 @@ function Cards() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-          <Card style={{ width: '18rem' }} className="mb-4 shadow-lg">
+        <Col lg={3} md={6} sm={6} xs={12}>
+          <Card className="mb-4 shadow-lg">
             <Card.Img variant="top" src={Img6} />
             <Card.Body>
               <Card.Title className="text-dark mt-2">Nunc porttitor vel</Card.Title>
@@ -90,8 +90,8 @@ function Cards() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-          <Card style={{ width: '18rem' }} className="mb-4 shadow-lg">
+        <Col lg={3} md={6} sm={6} xs={12}>
+          <Card className="mb-4 shadow-lg">
             <Card.Img variant="top" src={Img7} />
             <Card.Body>
               <Card.Title className="text-dark mt-2">Nunc porttitor vel</Card.Title>
@@ -102,8 +102,8 @@ function Cards() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-          <Card style={{ width: '18rem' }} className="mb-4 shadow-lg">
+        <Col lg={3} md={6} sm={6} xs={12}>
+          <Card className="mb-4 shadow-lg">
             <Card.Img variant="top" src={Img8} />
             <Card.Body>
               <Card.Title className="text-dark mt-2">Nunc porttitor vel</Card.Title>
