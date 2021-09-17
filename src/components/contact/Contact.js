@@ -10,7 +10,7 @@ import FooterElement from '../FooterElement';
 function Contact() {
   return (
     <>
-      <div class="wrapper">
+      <div class="wrapper wrapper-contact">
         <Container className="mt-5">
           <Row>
             <Col xs={12} md={3} lg={2} className="order-md-2 mt-md-5 address-container">

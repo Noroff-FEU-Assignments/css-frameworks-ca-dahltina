@@ -8,7 +8,7 @@ import FooterElement from '../FooterElement';
 function News() {
   return (
     <>
-      <div class="wrapper">
+      <div class="wrapper wrapper-news">
         <Container className="mt-4">
           <Heading content="News"/>
           <Page />

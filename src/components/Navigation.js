@@ -13,7 +13,7 @@ import Contact from './contact/Contact';
 function Navigation() {
   return (
     <div>
-       <Navbar bg="light" expand="lg" style={{ minHeight: '70px' }}>
+       <Navbar collapseOnSelect expand="lg" fixed="top" bg="light" style={{ minHeight: '70px' }}>
         <Container>
           <Navbar.Brand href="/" >The YAY Company</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

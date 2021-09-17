@@ -33,14 +33,6 @@ function ContactInfo() {
           </p>
         </Col>
       </Row>
-
-
-
-
-
-
-
-
     </div>
   )
 }
