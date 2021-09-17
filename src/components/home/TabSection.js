@@ -5,9 +5,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import Img1 from '../images/tab-images/tab-1.jpg';
-import Img2 from '../images/tab-images/tab-2.jpg';
-import Img3 from '../images/tab-images/tab-3.jpg';
+import Img1 from '../../images/tab-images/tab-1.jpg';
+import Img2 from '../../images/tab-images/tab-2.jpg';
+import Img3 from '../../images/tab-images/tab-3.jpg';
 
 function TabSection() {
   return (

@@ -2,9 +2,9 @@ import React from 'react'
 import Accordion from "react-bootstrap/Accordion";
 import Container from "react-bootstrap/Container";
 import Image from 'react-bootstrap/Image';
-import Img1 from '../images/tab-images/tab-1.jpg';
-import Img2 from '../images/tab-images/tab-2.jpg';
-import Img3 from '../images/tab-images/tab-3.jpg';
+import Img1 from '../../images/tab-images/tab-1.jpg';
+import Img2 from '../../images/tab-images/tab-2.jpg';
+import Img3 from '../../images/tab-images/tab-3.jpg';
 
 function AccordionSection() {
   return (

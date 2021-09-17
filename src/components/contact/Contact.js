@@ -24,10 +24,10 @@ function Contact() {
             </Col>
           </Row>
         </Container>
-        <FooterElement />
       </div>
+      <FooterElement />
     </>
   )
 }
 
-export default Contact
+export default Contact;

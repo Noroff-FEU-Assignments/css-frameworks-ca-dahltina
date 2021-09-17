@@ -2,10 +2,10 @@ import React from 'react';
 import CarouselSlider from './CarouselSlider';
 import TabSection from './TabSection';
 import AccordionSection from './AccordionSection';
-import Heading from './Heading';
-import Paragraph from './Paragraph';
+import Heading from '../Heading';
+import Paragraph from '../Paragraph';
 import Container from 'react-bootstrap/Container';
-import FooterElement from './FooterElement';
+import FooterElement from '../FooterElement';
 
 function Home() {
   return (

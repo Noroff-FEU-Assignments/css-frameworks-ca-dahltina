@@ -6,7 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import Form from "react-bootstrap/Form";
 import Formcontrol from "react-bootstrap/Formcontrol";
 import Button from "react-bootstrap/Button";
-import Home from './Home';
+import Home from './home/Home';
 import News from './news/News';
 import Contact from './contact/Contact';
 
